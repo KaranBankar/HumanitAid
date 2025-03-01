@@ -13,6 +13,12 @@
         android:theme="@style/Theme.HumanitAid"
         tools:targetApi="31">
         <activity
+            android:name=".User.CrisisInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login.LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".NGOs.UploadCampionsActivity"
             android:exported="false" />
         <activity
