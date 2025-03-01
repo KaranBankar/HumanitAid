@@ -13,6 +13,9 @@
         android:theme="@style/Theme.HumanitAid"
         tools:targetApi="31">
         <activity
+            android:name=".NGOs.UploadCampionsActivity"
+            android:exported="false" />
+        <activity
             android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
